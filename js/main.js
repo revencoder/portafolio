@@ -8,9 +8,9 @@ function skill() {
 var strings = {
   first: [
     'Analisémosla',
-    'planifiquémosla',
+    'Planifiquémosla',
     'Codifiquémosla',
-    'hagámosla realidad !!!'
+    'Hagámosla realidad !!!'
   ],
   second: [
     'hackathons',
