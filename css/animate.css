@@ -396,6 +396,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .wobble {
   -webkit-animation-name: wobble;
   animation-name: wobble;
+  animation-duration: 5s;
 }
 
 @-webkit-keyframes bounceIn {
@@ -1960,6 +1961,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .rotateIn {
   -webkit-animation-name: rotateIn;
   animation-name: rotateIn;
+  animation-duration: 2s;
 }
 
 @-webkit-keyframes rotateInDownLeft {

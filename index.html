@@ -10,39 +10,55 @@
   <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/rompecabeza.css">
+    <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/barras.css">
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <script src="js/wow.min.js"></script>
               <script>
               new WOW().init();
-              </script>
+              </script>-->
 </head>
 <body>
   <header>
-    <div class="social">
-      <i class="fa fa-facebook-square" aria-hidden="true"></i>
-      <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-      <i class="fa fa-github" aria-hidden="true"></i>
-    </div>
-    <div class="logotipo text-center">
-      <img src="img/logo.png" alt="Logotipo">
-    </div>
+      <nav class="navbar  
+      navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand link" href="#box"><img src="img/marca.png"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="hidden"><a href="#page-top" class="link"></a></li>
+              <li class="page-scroll"><a href="#conoceme" class="link">Conóceme</a></li>
+              <li class="page-scroll"><a href="#codart" class="link">CodArt</a></li>
+              <li class="page-scroll"><a href="#" class="link">Contáctame</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
   </header>
-  <div class="box" id="box" >
-    <div class="menu fixed">
-      <div class="contenedor">
-        <div class="toggle"></div>
+  <section>  
+    <div class="box" id="box" >
+        <img src="img/logo.png" alt="Logotipo" class="logotipo wobble animated">
+        <h1 class="stuff"><span class="stuff">¿TIENES UNA IDEA EN MENTE?</span><br /><span class="txt"></span>.</h1>
+      <div class="social text-center">
+        <a href="https://www.facebook.com/lineacreativape/?fref=ts"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="https://pe.linkedin.com/in/mcecilialimay"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a href="https://github.com/revencoder"><i class="fa fa-github" aria-hidden="true"></i></a>
       </div>
-        <span class="hidden"><a href="#">Inicia </a></span><span class="hidden"><a href="#conoceme">Conóceme</a></span><span class="hidden"><a href="#">CodArt</a></span><span class="hidden"><a href="#">Contáctame</a></span>
     </div>
-    <div id="maquinas" class="titulo"></div>
-  </div>
+  </section>
   <section class="conoceme" id="conoceme">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 text-right wow fadeInLeft" data-wow-duration="800ms" data-wow-delay="400ms">
+        <div class="col-md-6 col-sm-6 col-xs-12 text-right wow fadeInLeft" data-wow-duration="800ms" data-wow-delay="400ms">
           <div class="proporcional">
               <div class="burbuja">
                 <h2>¡Buen día!</h2>
@@ -50,17 +66,17 @@
               </div>
           </div>
         </div>
-        <div class="col-md-6 text-left wow fadeInRight" data-wow-duration="800ms" data-wow-delay="400ms">
+        <div class="col-md-6 col-sm-6 col-xs-0 text-left wow fadeInRight" data-wow-duration="800ms" data-wow-delay="400ms">
           <div class="image">
             <div class="move"></div>
           </div>
         </div>
       </div>
-      </div>
-    </section>
-    <section class="skills">
+    </div>
+  </section>
+  <section class="skills">
       <div class="container text-center">
-        <h1 class="titular">HABILIDADES TÉCNICAS DE PROGRAMACIÓN</h1>
+        <h1 class="titular">Habilidades Técnicas de Programación</h1>
           <div class="chart blue-btn" data-percent="100">
             <a class="first-link" href="">HTML5</a>
               <a href="">100%</a>
@@ -82,34 +98,17 @@
               <a href="">50%</a>
           </div>
       </div>
+
       <div class="container text-center">
-        <button class="boton"><a href="#ver">Ver Más</a></button>
+        <button class="boton"><a href="#skills">Ver Más</a></button>
       </div>
+
       <div class="container">
-        <div class="row">
-          <div id="ver" class="col-md-6 mt-30"><svg width="550" height="440" >
-        <g class="rompecabeza_figura" transform="translate(200,10) scale(0.35)">
-            <g class="rompecabeza">
-              <g class="figura plomo_figura">
-                <polygon class="plomo" points="164, 285  303,445 488,285 326,0" /></polygon>
-            </g>
-              <g class="figura amarillo_figura">
-                <polygon class="amarillo" points="488, 565  652,565 488,285 350,405" /></polygon>
-            </g>
-              <g class="figura verde_figura">
-                <polygon class="verde" points="164, 565  488, 565  350, 405"/></polygon>
-            </g>
-            <g class="figura rojo_figura">
-                <polygon class="rojo" points="0,565  164, 565  303,445  164, 285" /></polygon>
-            </g>
-          </g>
-        </g>
-      </svg>
-      </div>
-          <div class="col-md-6 mt-30">
-              <ul class="skills-bar-container">
-               <h1 class="titulardos">Habilidades Técnicas Comunicación 360º</h1>
-                <h3>DISEÑO GRÁFICO PUBLICITARIO</h3>
+        <div class="col-md-6 col-sm-6 col-xs-6 mt-30">
+          <div class="row">
+              <h1  id="skills">Habilidades Técnicas Comunicación</h1>
+               <ul class="skills-bar-container">
+                <h2>DISEÑO GRÁFICO PUBLICITARIO</h3>
                   <label>Illustrador</label>
                     <span class="percent" id="illustrador-pourcent"></span>
                       <li><span class="progressbar amarillo" id="progress-illustrador"></span></li>
@@ -118,7 +117,7 @@
                     <span class="percent" id="photoshop-pourcent"></span>
                       <li><span class="progressbar verde" id="progress-photoshop"></span></li>
            
-                <h3>SOCIAL MEDIA</h3> 
+                <h2>SOCIAL MEDIA</h3> 
                   <label>Hootsuite</label>
                     <span class="percent" id="javascript-pourcent"></span>
                       <li><span class="progressbar plomo" id="progress-hootsuite"></span></li>
@@ -133,39 +132,88 @@
               </ul>
               <button onclick="skill();" class="habilidad">Ver Skills</button>
           </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12 mt-90">
+          <div class="row">
+            <div id="container">
+                <div id="slider">
+                    <img alt="Marca Gift and Enjoy (Juguetería)" id="1" name="1" src="img/marcas/muestra1.png">
+                    <img alt="Marca Endulce (Pastelería)" id="2" name="2" src="img/marcas/muestra2.png">
+                    <img alt="Marca Shield Case (Accesorios para celulares)" id="3" name="1" src="img/marcas/muestra3.png">
+                    <img alt="Marca Centro de Estudios y formación Iberoamericana" id="4" name="2" src="img/marcas/muestra4.png">
+                    <img alt="Marca America del Sur Importaciones y Exportaciones" id="5" name="1" src="img/marcas/muestra5.png">
+                    <img alt="Marca D Antaño (Cafetería)" id="6" name="2" src="img/marcas/muestra6.png">
+                    <img alt="Kaizet Load (Prendas de vestir femeninas)" id="7" name="1" src="img/marcas/muestra7.png">
+                </div>
+                <div id="nav">
+                    <a class="left" href="#left">
+                      <div class="circle" id="1a"></div>
+                    </a>
+                    <a class="right" href="#right">
+                      <div class="circle" id="2a"></div>
+                    </a>
+                    <a class="right" href="#right">
+                      <div class="circle" id="3a"></div>
+                    </a>
+                    <a class="right" href="#right">
+                      <div class="circle" id="4a"></div>
+                    </a>
+                    <a class="right" href="#right">
+                      <div class="circle" id="5a"></div>
+                    </a>
+                    <a class="right" href="#right">
+                      <div class="circle" id="6a"></div>
+                    </a>
+                    <a class="right" href="#right">
+                      <div class="circle" id="7a"></div>
+                    </a>
+                </div>
+            </div>     
+          </div>
+        </div>
+
+
+      </div>
     </section>
-    <section class="our-lp">
+    <section class="codart" id="codart">
       <div class="container">
         <div class="row">
           <div class="col-md-3">
-            <h3>Our Latest Project</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste error, perferendis omnis est?.</p>
-            <div class="btn-group">
-              <a class="btn btn-danger" href="#scroller" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-              <a class="btn btn-danger" href="#scroller" data-slide="next"><i class="fa fa-angle-right"></i></a>
-            </div>
+            <h3>CodArt </h3>
+              <p>Porque la <strong>programación</strong> también es un arte que logra esbozar y recrear sitios <strong>web de alta fidelidad</strong>, impactando cada vez más en el usuario final, acercando <strong>potenciales clientes a tu marca</strong>.</p>
+              <div class="btn-group">
+                <a class="btn btn-danger" href="#scroller" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                <a class="btn btn-danger" href="#scroller" data-slide="next"><i class="fa fa-angle-right"></i></a>
+              </div>
+              <p>¿Estás preparado para dejar tu <strong>MARCA</strong> en el <strong>mundo digital?</strong></p>
           </div>
-          <div class="col-md-9">
+          <div class="col-md-9 mt-40">
             <div id="scroller" class="carousel slide">
               <div class="carousel-inner">
                 <div class="item active">
                   <div class="row">
                     <div class="col-xs-4">
                         <div class="cuadro">
-                          <img class="img-responsive" src="img/recent/item1.png" alt="">
-                          <h5>Nova - Corporate site template</h5>
+                        <a href="http://revencoder.github.io/CEFI/">
+                          <img class="img-responsive" src="img/portafolio/item1.jpg" alt="">
+                          <h5>CEFI - Centro de Estudio y Formación Iberoamericana</h5>
+                        </a>
                         </div>
                     </div>                            
                     <div class="col-xs-4">
                         <div class="cuadro">
-                          <img class="img-responsive" src="img/recent/item3.png" alt="">
-                          <h5>Fornax - Apps site template</h5>
+                        <a href="http://revencoder.github.io/Sentient">
+                          <img class="img-responsive" src="img/portafolio/item2.jpg" alt="">
+                          <h5>Sentient- Primera Hackaton Laboratoria</h5>
+                        </a>
                         </div>
                     </div>                            
                     <div class="col-xs-4">
                         <div class="cuadro">
-                          <img class="img-responsive" src="img/recent/item2.png" alt="">
-                          <h5>Flat Theme - Business Theme</h5>
+                        <a href="http://revencoder.github.io/Primes">
+                          <img class="img-responsive" src="img/portafolio/item3.jpg" alt="">
+                          <h5>Primes - Business Template (Trabajando en Equipo)</h5>
+                        </a> 
                         </div>
                     </div>
                   </div>
@@ -174,20 +222,54 @@
                   <div class="row">
                     <div class="col-xs-4">
                         <div class="cuadro">
-                          <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
-                          <h5>Flat Theme - Business Theme</h5>
+                        <a href="http://revencoder.github.io/responsive-blog">
+                          <img class="img-responsive" src="img/portafolio/item4.jpg" alt="">
+                          <h5>Flatness Theme - Spring Came</h5>
+                        </a>
                         </div>
                     </div>
                     <div class="col-xs-4">
                         <div class="cuadro">
-                          <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
-                          <h5>Nova - Corporate site template</h5>
+                        <a href="http://revencoder.github.io/agency-theme">
+                          <img class="img-responsive" src="img/portafolio/item5.jpg" alt="">
+                          <h5>Start Bootstrap - Responsive Theme</h5>
+                        </a>
                         </div>
                     </div>                            
                     <div class="col-xs-4">
                         <div class="cuadro">
-                          <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
-                          <h5>Fornax - Apps site template</h5>
+                        <a href="http://revencoder.github.io/kane-paleta-de-colores">
+                          <img class="img-responsive" src="img/portafolio/item6.jpg" alt="">
+                          <h5>Kane - Paleta de Colores</h5>
+                        </a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="row">
+                    <div class="col-xs-4">
+                        <div class="cuadro">
+                        <a href="http://revencoder.github.io/bootstrap/">
+                          <img class="img-responsive" src="img/portafolio/item7.jpg" alt="">
+                          <h5>Bootstrap Theme - Estructura</h5>
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="cuadro">
+                        <a href="http://revencoder.github.io/flat-theme/">
+                          <img class="img-responsive" src="img/portafolio/item8.jpg" alt="">
+                          <h5>Flat Theme - Powerful and Responsive Web Design</h5>
+                        </a>
+                        </div>
+                    </div>                            
+                    <div class="col-xs-4">
+                        <div class="cuadro">
+                        <a href="http://revencoder.github.io/triangle-theme/">
+                          <img class="img-responsive" src="img/portafolio/item9.jpg" alt="">
+                          <h5>triangle - Theme Responsive Web Design</h5>
+                        </a>
                         </div>
                     </div>
                   </div>
@@ -197,15 +279,24 @@
           </div>  
         </div>
       </div>
-    </section>    
-
-
- 
-      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    </section>
+    <section class="contact">
+      <div id="contact">
+        <a href="mailto:mcecilia.limay@gmail.com" target="_blank" class="contact-button">Contáctame
+          <span>mcecilia.limay@gmail.com</span>
+        </a>
+      </div>
+    </section>
+    <footer>
+      <div class="container text-center">
+        <p class="footer">Powered by :  <span>María Cecilia Limay Limay</span></p>
+      </div>
+    </footer>
+      <script src="js/jquery.js"></script>
       <script src="js/prefixfree.min.js"></script>
-      <script type="text/javascript" src="js/jquery.js"></script>
+      <script src='https://cdn.rawgit.com/mattboldt/typed.js/master/dist/typed.min.js'></script>
       <script type="text/javascript" src="js/bootstrap.js"></script>
-      <script type="text/javascript" src="js/main.js"></script>
       <script type="text/javascript" src="js/index.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>

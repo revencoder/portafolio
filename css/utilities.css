@@ -4,6 +4,18 @@
     padding: 0;
 }
 
+.mt-20{
+	margin-top: 20px;
+}
+
 .mt-30{
 	margin-top: 30px;
+}
+
+.mt-40{
+	margin-top: 40px;
+}
+
+.mt-90{
+	margin-top: 90px;
 }
