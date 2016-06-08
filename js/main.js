@@ -10,7 +10,7 @@ var strings = {
     'Analisémosla',
     'planifiquémosla',
     'Codifiquémosla',
-    'hagámosla realidad'
+    'hagámosla realidad !!!'
   ],
   second: [
     'hackathons',
